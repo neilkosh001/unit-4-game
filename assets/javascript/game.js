@@ -64,22 +64,22 @@ $(document).ready(function () { //Wait till all the elements are loaded
 
     //On click events asigned to each crystal.
 
-    $("#redCrystal").on('click', function () {
+    $("#mindStone").on('click', function () {
         currentScore += crystals[0];
         playGame();
     });
 
-    $("#blueCrystal").on('click', function () {
+    $("#spaceStone").on('click', function () {
         currentScore += crystals[1];
         playGame();
     });
 
-    $("#yellowCrystal").on('click', function () {
+    $("#powerStone").on('click', function () {
         currentScore += crystals[2];
         playGame();
     });
 
-    $("#magCrystal").on('click', function () {
+    $("#timeStone").on('click', function () {
         currentScore += crystals[3];
         playGame();
     });
